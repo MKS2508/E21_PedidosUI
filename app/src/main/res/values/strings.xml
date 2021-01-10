@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">E2.1_PedidosUI</string>
+    <string name="cart">cart</string>
+    <string name="delete">eliminar</string>
+    <string name="cafe3">Café cortado</string>
+    <string name="cafe2">Café con leche</string>
+    <string name="cafe1">Café Solo</string>
+    <string name="rm">-</string>
+    <string name="add">+</string>
+    <string name="def">0</string>
+    <string name="metodo">Modo de Entrega</string>
+    <string name="metodo1">Reparto a domicilio</string>
+    <string name="metodo2">Recoger en local</string>
+    <string name="fecha">Seleccionar Fecha de entrega</string>
+    <string name="hora">Seleccionar Hora de entrega</string>
+    <string name="pick_time">09:15</string>
+    <string name="time_toast">Time</string>
+    <string name="timepicker">timePicker</string>
+    <string name="time_button">Time</string>
+    <string name="date_button">Date</string>
+    <string name="datepicker">datePicker</string>
+    <string name="date">Date</string>
+    <string name="nombre">Nombre</string>
+    <string name="direccion">Dirección</string>
+    <string name="telefono">Teléfono</string>
+    <string name="editTextNombre">Tu nombre</string>
+    <string name="editTextDireccion">Tu dirección</string>
+    <string name="editTextTelefono">Tu teléfono</string>
+    <string name="nombre2">Tu nombre</string>
+    <string name="dir2">Tu dirección</string>
+    <string name="tlf2">Tu teléfono</string>
+    <string-array name="telefonos">
+        <item>Casa</item>
+        <item>Trabajo</item>
+        <item>Móvil</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

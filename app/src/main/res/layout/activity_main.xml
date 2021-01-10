@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/cafe1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/cafe1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rmCafe1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="@string/rm"
+        android:onClick="rmCafe1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cafe1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/addcafe1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:onClick="addCafe1"
+        android:text="@string/add"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cafe1"
+        app:layout_constraintStart_toEndOf="@+id/totalCafe1" />
+
+    <TextView
+        android:id="@+id/totalCafe1"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:text="@string/def"
+        android:textAlignment="center"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cafe1"
+        app:layout_constraintStart_toEndOf="@+id/rmCafe1" />
+
+    <TextView
+        android:id="@+id/cafe2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/cafe1"
+        app:layout_constraintStart_toStartOf="@id/cafe1"
+        app:layout_constraintTop_toBottomOf="@id/cafe1" />
+
+    <Button
+        android:id="@+id/rmCafe2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="@string/rm"
+        android:onClick="rmCafe1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cafe2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/addcafe2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:onClick="addCafe1"
+        android:text="@string/add"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cafe2"
+        app:layout_constraintStart_toEndOf="@+id/totalCafe1" />
+
+    <TextView
+        android:id="@+id/totalCafe2"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:text="@string/def"
+        android:textAlignment="center"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cafe2"
+        app:layout_constraintStart_toEndOf="@+id/rmCafe2" />
+
+    <TextView
+        android:id="@+id/cafe3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/cafe1"
+        app:layout_constraintStart_toStartOf="@id/cafe2"
+        app:layout_constraintTop_toBottomOf="@id/cafe2" />
+
+    <Button
+        android:id="@+id/rmCafe3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="@string/rm"
+        android:onClick="rmCafe1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cafe3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/addcafe3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:onClick="addCafe1"
+        android:text="@string/add"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cafe3"
+        app:layout_constraintStart_toEndOf="@+id/totalCafe2" />
+
+    <TextView
+        android:id="@+id/totalCafe3"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:text="@string/def"
+        android:textAlignment="center"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cafe3"
+        app:layout_constraintStart_toEndOf="@+id/rmCafe3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
